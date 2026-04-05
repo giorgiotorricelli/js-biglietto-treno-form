@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.my-container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#logo-treno {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 15px;
+    box-shadow: 2px 3px 2px 0px;
+}
+
+.biglietto-card {
+    border-radius: 20px;
+    background-color: rgb(229, 208, 178);
+    padding: 40px 20px;
+    box-shadow: 2px 3px 5px 0px;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.biglietto-section {
+    padding-top: 10px;
+}
+
+
+#train-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 0 30px 0;
+    align-items: center;
+    margin-top: 70px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+
+
+input {
+    max-width: 300px;
+    min-width: 290px;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#btn-biglietto {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(23, 23, 255);
+    color: white;
+    background-color: rgb(25, 109, 255);
+}
+
